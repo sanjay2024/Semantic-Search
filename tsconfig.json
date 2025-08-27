@@ -4,23 +4,13 @@
     // File Layout
     "rootDir": ".",
     "outDir": "dist",
-
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
     "target": "es2021",
     "types": ["node"],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
-
-    // Other Outputs
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-
-    // Stricter Typechecking Options
+    
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
 
